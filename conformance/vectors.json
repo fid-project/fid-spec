@@ -1,0 +1,62 @@
+[
+    {
+        "description": "zero epoch baseline",
+        "kind": 0,
+        "time_ms_since_epoch": 0,
+        "node": 0,
+        "counter": 0,
+        "id_uint64": "0",
+        "id_hex": "0x0",
+        "text": "00000000000000"
+    },
+    {
+        "description": "same epoch, different kind",
+        "kind": 5,
+        "time_ms_since_epoch": 0,
+        "node": 0,
+        "counter": 0,
+        "id_uint64": "360287970189639680",
+        "id_hex": "0x500000000000000",
+        "text": "0A00000000000H"
+    },
+    {
+        "description": "small time, mid node/counter",
+        "kind": 1,
+        "time_ms_since_epoch": 12345,
+        "node": 17,
+        "counter": 3,
+        "id_uint64": "72057594139058723",
+        "id_hex": "0x100000006072223",
+        "text": "020000030E8H3F"
+    },
+    {
+        "description": "bigger time, high node, high counter",
+        "kind": 9,
+        "time_ms_since_epoch": 987654321,
+        "node": 250,
+        "counter": 31,
+        "id_uint64": "648526437205557087",
+        "id_hex": "0x900075bcd163f5f",
+        "text": "0J007BF6HCFTZJ"
+    },
+    {
+        "description": "max time - 1, node 0, counter 31",
+        "kind": 42,
+        "time_ms_since_epoch": 8796093022207,
+        "node": 0,
+        "counter": 31,
+        "id_uint64": "3098476543630893087",
+        "id_hex": "0x2affffffffffe01f",
+        "text": "2NZZZZZZZZR0ZX"
+    },
+    {
+        "description": "max time - 1, node 255, counter 31 (all bits set)",
+        "kind": 255,
+        "time_ms_since_epoch": 8796093022207,
+        "node": 255,
+        "counter": 31,
+        "id_uint64": "18446744073709551615",
+        "id_hex": "0xffffffffffffffff",
+        "text": "FZZZZZZZZZZZZB"
+    }
+]
